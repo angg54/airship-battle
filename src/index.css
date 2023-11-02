@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'gameboy';
+  src: url('/public/fonts/VT323-Regular.ttf');
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'gameboy', 'Courier New', Courier, monospace;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
